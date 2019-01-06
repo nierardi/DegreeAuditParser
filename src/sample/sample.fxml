@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="672.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <WebView fx:id="webView" layoutX="25.0" layoutY="113.0" prefHeight="505.0" prefWidth="976.0" />
+      <Button fx:id="reloadBtn" layoutX="71.0" layoutY="79.0" mnemonicParsing="false" onAction="#reloadBtnClicked" text="Reload" />
+      <Button fx:id="goBtn" layoutX="882.0" layoutY="79.0" mnemonicParsing="false" onAction="#goBtnClicked" text="Go" />
+      <TextField fx:id="urlField" layoutX="146.0" layoutY="79.0" prefHeight="27.0" prefWidth="729.0" />
+      <Button fx:id="zoomPlusBtn" layoutX="948.0" layoutY="79.0" mnemonicParsing="false" onAction="#zoomPlusBtnClicked" text="+" />
+      <Button fx:id="zoomMinusBtn" layoutX="981.0" layoutY="79.0" mnemonicParsing="false" onAction="#zoomMinusBtnClicked" text="-" />
+      <Button fx:id="backBtn" layoutX="25.0" layoutY="79.0" mnemonicParsing="false" onAction="#backBtnClicked" text="&lt;" />
+      <Button fx:id="printHtmlBtn" layoutX="25.0" layoutY="631.0" mnemonicParsing="false" onAction="#printHtmlBtnClicked" prefHeight="27.0" prefWidth="516.0" text="Do Magic (ONLY click this AFTER the degree audit FULLY renders)" />
+      <Label layoutX="806.0" layoutY="15.0" text="if you can't see the login page," />
+      <Label layoutX="806.0" layoutY="32.0" text="try zooming in/out" />
+      <Label layoutX="25.0" layoutY="15.0" text="1. Click go to load login page" />
+      <Label layoutX="25.0" layoutY="35.0" text="2. After logging in, degree audit should show - if not, click go again" />
+      <Label layoutX="25.0" layoutY="56.0" text="3. Do the Magic (click the button below!)" />
+   </children>
+</AnchorPane>
