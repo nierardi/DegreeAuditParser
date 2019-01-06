@@ -1,4 +1,4 @@
-package sample;
+package DegreeAuditParser;
 
 import javafx.scene.control.Alert;
 

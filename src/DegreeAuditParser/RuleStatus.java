@@ -1,4 +1,4 @@
-package sample;
+package DegreeAuditParser;
 
 public enum RuleStatus {
 	INCOMPLETE,

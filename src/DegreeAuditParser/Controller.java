@@ -1,4 +1,4 @@
-package sample;
+package DegreeAuditParser;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

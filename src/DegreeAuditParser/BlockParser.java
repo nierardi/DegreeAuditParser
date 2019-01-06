@@ -1,7 +1,5 @@
-package sample;
+package DegreeAuditParser;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 public class BlockParser {

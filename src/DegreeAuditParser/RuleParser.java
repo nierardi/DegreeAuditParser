@@ -1,4 +1,4 @@
-package sample;
+package DegreeAuditParser;
 
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
