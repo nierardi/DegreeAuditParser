@@ -10,6 +10,8 @@ The program uses a JavaFX WebView to allow the user to login to their degree aud
 
 The parse results are currently output to a file, along with some debug information. An HTML copy of the degree audit inner frame is also created.
 
+More details are in [the wiki.](https://github.com/nierardi/DegreeAuditParser/wiki/)
+
 ### Want to help?
 
 To help understand the format a little better, I need some samples from other people's degree audits. I have a few edge cases I need to test:
